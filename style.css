@@ -14,6 +14,14 @@
     max-width: 280px;;
 }
 
+.services img{
+    width: 100%;
+    height: 100%;
+}
+.offer-bg-color{
+    background-color: #C2DFFF;
+}
+
 /* responsive code  */
 /* // Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) { ...
