@@ -21,6 +21,9 @@
 .offer-bg-color{
     background-color: #C2DFFF;
 }
+.padding-right{
+    padding-right: 1.5rem;
+}
 
 /* responsive code  */
 /* // Extra small devices (portrait phones, less than 576px) */

@@ -374,19 +374,59 @@
             <div class="col-xxl-8 col-10 col-md-8 mx-auto">
                 <form>
                     <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Name</label>
+                        <input type="name" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="mb-3">
                         <label for="exampleInputEmail1" class="form-label">Email address</label>
                         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                         <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
                     </div>
-                    <div class="mb-3">
-                        <label for="exampleInputPassword1" class="form-label">Password</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1">
-                    </div>
+                    
                     <div class="mb-3 form-check">
                         <input type="checkbox" class="form-check-input" id="exampleCheck1">
                         <label class="form-check-label" for="exampleCheck1">Check me out</label>
                     </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <div class="mb-3">
+                       <label class="padding-right" >Gender</label>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                            <label class="form-check-label" for="inlineRadio1">male</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                            <label class="form-check-label" for="inlineRadio2">female</label>
+                        </div>
+                        
+
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleDataList" class="form-label">Datalist example</label>
+                        <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Type to search...">
+                        <datalist id="datalistOptions">
+                            <option value="San Francisco"></option>
+                            <option value="New York"></option>
+                            <option value="Seattle"></option>
+                            <option value="Los Angeles"></option>
+                            <option value="Chicago"></option>
+                        </datalist>
+
+
+
+                    </div>
+                    <div class="mb-3">
+                        <label for="formFile" class="form-label">Default file input example</label>
+                        <input class="form-control" type="file" id="formFile">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <div>
+
+                        <button type="submit" class="btn btn-primary text-center">Submit</button>
+                    </div>
+                   
                 </form>
 
             </div>
