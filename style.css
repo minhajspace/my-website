@@ -25,6 +25,10 @@
     padding-right: 1.5rem;
 }
 
+.footer-padding{
+margin-bottom: 0 !important;
+}
+
 /* responsive code  */
 /* // Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) { ...
